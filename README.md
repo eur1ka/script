@@ -1,7 +1,8 @@
 # script
 由于我本人是个懒狗，写一些工具来简化一些不必要的操作，在这个仓库里会放一些自己写的小工具，如有需要，自行下载，白嫖得话就点个star吧(手动狗头)
 
-0x01 patchelf配合glibc-all-in-one进行patch的脚本，进去选择版本位数即可
+## 0x01 patch.sh
+通过patchelf配合glibc-all-in-one进行patch的脚本，进去选择版本位数即可
 ```bash
 ➜  Message Board patch.sh ./httpd
 please input the edition you want to pathch
