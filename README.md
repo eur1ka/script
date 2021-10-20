@@ -6,7 +6,7 @@
 ➜  Message Board patch.sh ./httpd
 please input the edition you want to pathch
 ---------------------------------------
-1) 2.23-0ubuntu11.3_amd64\n
+1) 2.23-0ubuntu11.3_amd64
 2) 2.23-0ubuntu11.3_i386
 3) 2.23-0ubuntu3_amd64
 4) 2.23-0ubuntu3_i386
