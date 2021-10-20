@@ -3,6 +3,7 @@
 
 ## 0x01 patch.sh
 通过patchelf配合glibc-all-in-one进行patch的脚本，进去选择版本位数即可
+32位
 ```bash
 ➜  Message Board patch.sh ./httpd
 please input the edition you want to pathch
@@ -33,4 +34,36 @@ please input the edition you want to pathch
 2
 please choice 32/64 program(32 for 32 or 64 for 64)
 32
+```
+64位
+```bash
+➜  msgparser patch.sh ./chall
+please input the edition you want to pathch
+---------------------------------------
+1) 2.23-0ubuntu11.3_amd64
+2) 2.23-0ubuntu11.3_i386
+3) 2.23-0ubuntu3_amd64
+4) 2.23-0ubuntu3_i386
+5) 2.27-3ubuntu1.2_amd64
+6) 2.27-3ubuntu1.2_i386
+7) 2.27-3ubuntu1.4_amd64
+8) 2.27-3ubuntu1.4_i386
+9) 2.27-3ubuntu1_amd64
+10) 2.27-3ubuntu1_i386
+11) 2.31-0ubuntu9.2_amd64
+12) 2.31-0ubuntu9.2_i386
+13) 2.31-0ubuntu9_amd64
+14) 2.31-0ubuntu9_i386
+15) 2.32-0ubuntu3.2_amd64
+16) 2.32-0ubuntu3.2_i386
+17) 2.32-0ubuntu3_amd64
+18) 2.32-0ubuntu3_i386
+19) 2.33-0ubuntu5_amd64
+20) 2.33-0ubuntu5_i386
+21) 2.34-0ubuntu3_amd64
+22) 2.34-0ubuntu3_i386
+---------------------------------------
+21
+please choice 32/64 program(32 for 32 or 64 for 64)
+64
 ```
