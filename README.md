@@ -3,6 +3,7 @@
 
 ## 0x01 patch.sh
 通过patchelf配合glibc-all-in-one进行patch的脚本，进去选择版本位数即可
+
 32位
 ```bash
 ➜  Message Board patch.sh ./httpd
