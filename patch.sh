@@ -96,14 +96,12 @@ case $input in
     edition="2.34-0ubuntu3_i386"
     ;;
 esac
-echo "please choice 32/64 program(32 for 32 or 64 for 64)"
-read arch
-case $arch in
-    64)
+case $edition in
+    *amd64)
     patchelf --replace-needed libc.so.6 /home/eur1ka/tools/glibc-all-in-one/libs/$edition/libc.so.6 $1
     patchelf --set-interpreter  /home/eur1ka/tools/glibc-all-in-one/libs/$edition/ld-linux-x86-64.so.2 $1 
     ;;
-    32)
+    *i386)
     patchelf --replace-needed libc.so.6 /home/eur1ka/tools/glibc-all-in-one/libs/$edition/libc.so.6 $1
     patchelf --set-interpreter  /home/eur1ka/tools/glibc-all-in-one/libs/$edition/ld-linux.so.2 $1 
     ;;
