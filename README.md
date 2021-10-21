@@ -2,7 +2,7 @@
 由于我本人是个懒狗，写一些工具来简化一些不必要的操作，在这个仓库里会放一些自己写的小工具，如有需要，自行下载，白嫖得话就点个star吧(手动狗头)
 
 ## 0x01 patch.sh
-通过patchelf配合glibc-all-in-one进行patch的脚本，进去选择版本位数即可
+通过patchelf配合glibc-all-in-one进行patch的脚本，进去选择版本即可
 
 32位
 ```bash
@@ -33,8 +33,6 @@ please input the edition you want to pathch
 22) 2.34-0ubuntu3_i386
 ---------------------------------------
 2
-please choice 32/64 program(32 for 32 or 64 for 64)
-32
 ```
 64位
 ```bash
@@ -65,6 +63,4 @@ please input the edition you want to pathch
 22) 2.34-0ubuntu3_i386
 ---------------------------------------
 21
-please choice 32/64 program(32 for 32 or 64 for 64)
-64
 ```
